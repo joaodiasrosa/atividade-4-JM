@@ -15,7 +15,7 @@ class PagamentoCartao(Pagamento):
             print("Cartão válido.")
             return True
         else:
-            print("Cartão inválido. Por favor, verifique o número.")
+            print("Cartão inválido. Por favor, verifique o número")
             return False
     def processar_pagamento(self, valor):
         if self.validar_cartao():
