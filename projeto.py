@@ -44,3 +44,6 @@ print("\n---------- Pagamento com Boleto ----------")
 pagamento_boleto = PagamentoBoleto()
 pagamento_boleto.gerar_boleto()
 pagamento_boleto.processar_pagamento(450.60)
+
+
+
